@@ -32,7 +32,7 @@
 ├── .gitignore             # Files and folders to be ignored by Git (e.g., sensitive credentials, virtual environment)
 ├── main.py                # The heart of the system; orchestrates the trading bot's operations
 ├── requirements.txt       # All necessary Python libraries listed for easy installation
-├── creds.json             # ⚠️ Google Sheets API credentials (NEVER push this file to public repos!)
+├── creds.json             # ⚠️ Google Sheets API credentials 
 ├── ml_model.py            # Contains the core Machine Learning model logic for predictions
 ├── scheduler.py           # (Future Ready) Placeholder for scheduling automated tasks
 ├── sheet_updater.py       # Manages all communication and data updates to Google Sheets
