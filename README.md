@@ -2,6 +2,14 @@
 # 🚀 Algo-Trading System with ML & Automation
  This project is a cutting-edge Python-based prototype of an algorithmic trading system, engineered to democratize stock market analysis and strategy execution. It intelligently fetches real-time stock data, deploys a robust technical trading strategy, and automates performance tracking directly into Google Sheets. While the advanced ML prediction and a comprehensive alert system are next on our roadmap, this system provides a powerful, modular, and scalable foundation for any aspiring quant or data-driven trader.
 
+
+![Screenshot of Dashboard/Signals](![algo trading](https://github.com/user-attachments/assets/80178544-69c7-4aa6-bc02-04f6a21910a3)
+)
+
+
+
+ 
+
 ## ✨ Key Highlights
 
   * **📈 Smart Data Ingestion:** Seamlessly pulls historical daily stock data for top NIFTY 50 blue-chip stocks (e.g., RELIANCE.NS, TCS.NS, INFY.NS) using reliable, free stock data APIs like Yahoo Finance.
