@@ -25,7 +25,4 @@ def apply_strategy(df):
     df['20DMA'] = df['Close'].rolling(window=20).mean()
     df['50DMA'] = df['Close'].rolling(window=50).mean()
 
-    # Generate Buy Signal
-    df['Buy_Signal'] = (df['RSI'] < 30) & (df['20DMA'] > df['50DMA'])
-
-    return df
+  
