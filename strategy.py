@@ -21,6 +21,12 @@ def apply_strategy(df):
     # Calculate RSI
     df['RSI'] = compute_rsi(df['Close'], period=14)
 
+      # Generate Buy Signal
+    df['Buy_Signal'] = (df['RSI'] < 30) & (df['20DMA'] > df['50DMA'])
+
+    return df
+
+
     # Calculate 20-day and 50-day Moving Averages
     df['20DMA'] = df['Close'].rolling(window=20).mean()
     df['50DMA'] = df['Close'].rolling(window=50).mean()
