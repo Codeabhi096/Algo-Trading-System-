@@ -39,5 +39,4 @@ def run_trading_bot():
     # Update Summary Sheet
     update_backtest_summary(sheet_name, summary_data)
 
-if __name__ == "__main__":
-    run_trading_bot()
+
